@@ -1,0 +1,30 @@
+---
+import { onMount } from 'astro/client';
+import lightGallery from 'lightgallery';
+import 'lightgallery/css/lightgallery.css';
+import { getDirectories } from '../lib/getDirectories.js';
+const imageDirectories = await getDirectories('./public/images');
+---
+
+<section>
+
+  <div class="card my-3">
+    <div class="card-header bg-success text-light">
+      <h3 class="card-title">Images</h3>
+    </div>
+    <div class="card-body">
+      <div id="lightgallery" class="gallery">
+        {imageDirectories.map((directory) => (
+        <a href=`/album/${directory}` data-lg-size="1600-2400">
+          <img src=`/images/${directory}/thumb.jpg` alt={`Gallery Image`} />
+          <div class="overlay-text capitalize">{directory.replace(/^\d+_?/, '').replaceAll("_", " ").trim()}</div>
+        </a>
+        ))}
+      </div>
+    </div>
+  </div>
+
+</section>
+<style>
+  @import '../style/gallery.css'
+</style>

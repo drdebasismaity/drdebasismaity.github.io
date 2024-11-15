@@ -1,5 +1,5 @@
 {
-  "name": "sleepy-shepherd",
+  "name": "DM-Website",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -10,6 +10,11 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.16.12"
+    "astro": "^4.16.12",
+    "bootstrap": "^4.1.0",
+    "fs": "^0.0.1-security",
+    "lightgallery": "^2.8.1",
+    "path": "^0.12.7",
+    "swiper": "^11.1.14"
   }
 }

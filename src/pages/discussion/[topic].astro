@@ -1,0 +1,60 @@
+---
+import DiscussionLayout from '../../layouts/DiscussionLayout.astro';
+import HeroSection from '../../components/HeroSection.astro';
+
+const allPosts = import.meta.glob('/src/content/discussions/*.md');
+
+export async function getStaticPaths() {
+  const posts = import.meta.glob('/src/content/discussions/*.md');
+  const paths = Object.keys(posts).map((post) => ({
+    params: { topic: post.split('/').pop().replaceAll(".md", "") }
+  }));
+  return paths;
+}
+
+const { params } = Astro;
+const topic = params.topic;
+
+let post;
+try {
+  post = await allPosts[`/src/content/discussions/${topic}.md`]();
+} catch (e) {
+  console.error('File not found:', e);
+}
+
+const { frontmatter, Content } = post || {};
+---
+<DiscussionLayout title="Discussion">
+  <HeroSection />
+
+  {post ? (
+  <div class="card">
+    <div class="card-header bg-success text-light">
+      <h2 class="card-title">{topic.replaceAll("_", " ")}</h2>
+    </div>
+    <div class="card-body">
+      <Content />
+    </div>
+  </div>
+  ) : (
+  <div class="card">
+    <div class="card-header bg-danger text-light">
+      <h2 class="card-title">Error</h2>
+    </div>
+    <div class="card-body">
+      <p>Sorry, the requested discussion topic could not be found.</p>
+    </div>
+  </div>
+  )}
+  </div>
+
+</DiscussionLayout>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const tables = document.querySelectorAll('table');
+    tables.forEach((table) => {
+      table.classList.add('table');
+    });
+  });
+</script>

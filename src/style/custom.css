@@ -1,0 +1,15 @@
+.capitalize {
+	text-transform: capitalize;
+}
+
+.point {
+	cursor:pointer;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+th:empty {
+	display:none;
+}

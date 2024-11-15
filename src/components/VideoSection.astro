@@ -1,0 +1,27 @@
+---
+import Youtube from "../content/video/Youtube.json"
+import YTEmbed from "../components/YTEmbed.astro"
+---
+
+<section>
+  <div class="card my-3">
+    <div class="card-header bg-success text-light">
+      <h3 class="card-title">Videos</h3>
+    </div>
+    <div class="card-body">
+      <div class="row">
+        {Youtube.big.map((video) => (
+          <YTEmbed videoId={video.videoId} title={video.title} colWidth=6 />
+        ))}
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="row">
+        {Youtube.small.map((video) => (
+          <YTEmbed videoId={video.videoId} title={video.title} colWidth=4 />
+        ))}
+      </div>
+    </div>
+  </div>
+
+</section>

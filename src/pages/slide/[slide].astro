@@ -1,0 +1,65 @@
+---
+import SlideLayout from '../../layouts/SlideLayout.astro';
+import HeroSection from '../../components/HeroSection.astro';
+
+import { getDirectories } from '../../lib/getDirectories.js';
+import { getSlides } from '../../lib/getSlides.js';
+
+export async function getStaticPaths() {
+const slideDirectories = await getDirectories('./public/slides');
+  const paths = slideDirectories.map((directory) => ({
+    params: { slide: directory }
+  }));
+  return paths;
+}
+
+const { params } = Astro;
+const slide = params.slide;
+
+let slides = await getSlides(slide);
+slides = slides.filter(img => !img.endsWith('thumb.jpg'));
+
+---
+<SlideLayout title="Gallery">
+  <HeroSection />
+  <div class="card my-3">
+    <div class="card-header bg-success text-light">
+      <h3 class="card-title capitalize">{slide.replace(/^\d+_?/, '').replaceAll("_", " ").trim()}</h3>
+    </div>
+    <div class="card-body">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          {slides.map((img) => (
+          <div class="swiper-slide">
+            <img src={`${img}`} alt={`Slide Image - ${img.split('/').pop().replace(/[-_]/g, ' ').replace(/\.\w+$/, '')}`} />
+          </div>
+          ))}
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+  </div>
+</SlideLayout>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+<script client:load>
+  document.addEventListener('DOMContentLoaded', () => {
+    if (typeof Swiper !== 'undefined') {
+      const swiper = new Swiper('.swiper-container', {
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    } else {
+      console.error('Swiper is not defined');
+    }
+  });
+</script>

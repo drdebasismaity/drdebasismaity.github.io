@@ -1,0 +1,44 @@
+---
+import MainLayout from '../../layouts/MainLayout.astro';
+import HeroSection from '../../components/HeroSection.astro';
+
+import { getDirectories } from '../../lib/getDirectories.js';
+import { getImages } from '../../lib/getImages.js';
+
+export async function getStaticPaths() {
+  const imageDirectories = await getDirectories('./public/images');
+  const paths = imageDirectories.map((directory) => ({
+    params: { album: directory }
+  }));
+  return paths;
+}
+
+const { params } = Astro;
+const album = params.album;
+
+let images = await getImages(album);
+images = images.filter(img => !img.endsWith('thumb.jpg'));
+
+---
+<MainLayout title="Gallery">
+  <HeroSection />
+  <div class="card my-3">
+    <div class="card-header bg-success text-light">
+      <h3 class="card-title capitalize">{album.replace(/^\d+_?/, '').replaceAll("_", " ").trim()}</h3>
+    </div>
+    <div class="card-body">
+      <div id="lightgallery" class="gallery">
+        {images.map((img) => (
+        <a href={`${img}`} data-lg-size="1600-2400">
+          <img src={`${img}`} alt={`Gallery Image`} />
+          <div class="overlay-text capitalize">{img.split('/').pop().split('.').slice(0,1).join('.').replace(/^\d+_?/, '').replaceAll("_", " ").trim()}</div>
+        </a>
+        ))}
+      </div>
+    </div>
+  </div>
+</MainLayout>
+
+<style>
+  @import '../../style/gallery.css'
+</style>

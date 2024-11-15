@@ -1,0 +1,22 @@
+---
+export interface Props {
+  videoId: string;
+  title: string;
+  colWidth: string;
+}
+
+const { videoId, title, colWidth } = Astro.props;
+---
+<div class={`col-md-${colWidth} my-3`}>
+  <div class="img-thumbnail">
+    <a href={`https://youtu.be/${videoId}`} target="_blank" rel="noopener noreferrer">
+      <div
+        data-id={videoId}
+        class="embed-responsive embed-responsive-16by9 ytb"
+        style={`background-image: url(https://img.youtube.com/vi/${videoId}/0.jpg);`}
+      >
+        <p class="lead text-center">{title}</p>
+      </div>
+    </a>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 16px;
+}
+.gallery-item {
+	position: relative;
+}
+.gallery img {
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.overlay-text {
+	width: 80%;
+	position: relative;
+	bottom: 8px;
+	left: 8px;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 4px 8px;
+	border-radius: 4px;
+	pointer-events: none;
+	font-size: 0.75rem;
+}

@@ -1,0 +1,93 @@
+---
+import { getDirectories } from '../lib/getDirectories.js';
+const slideDirectories = await getDirectories('./public/slides');
+
+const posts = import.meta.glob('/src/content/discussions/*.md');
+
+const postEntries = await Promise.all(
+  Object.entries(posts).map(async ([path, resolver]) => {
+    const post = await resolver();
+    return {
+      ...post.frontmatter,
+      path,
+    };
+  })
+);
+
+const pdfFiles = import.meta.glob('/src/content/docs/*.pdf');
+
+const pdfEntries = Object.entries(pdfFiles).map(([path]) => ({
+  path,
+  name: path.split('/').pop().replaceAll(".pdf", "").replaceAll("_", " "),
+}));
+---
+
+<section>
+
+  <div class="row my-3">
+    <!--col-1-->
+    <div class="col-md-6">
+      <div class="card h-100">
+        <div class="card-header bg-primary text-light">
+          <h3 class="card-title">Medical Discussion</h3>
+        </div>
+        <div class="card-body">
+          <ul>
+            {postEntries.map(post => (
+            <li>
+              <a href={`/discussion/${post.path.split('/').pop().replaceAll(".md", "")}`} target="_blank">{post.title}</a>
+            </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!--col-2-->
+    <div class="col-md-6">
+      <div class="h-100">
+        <div class="card">
+          <div class="card-header bg-info text-light">
+            <h3 class="card-title">PDF Documents</h3>
+          </div>
+          <div class="card-body">
+            <ul>
+              {pdfEntries.map(pdf => (
+              <li>
+                <a href={pdf.path} target="_blank" class="capitalize">{pdf.name}</a>
+              </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+        <div class="card mt-3">
+          <div class="card-header bg-info text-light">
+            <h3 class="card-title">Slides</h3>
+          </div>
+          <div class="card-body">
+            <ul>
+              {slideDirectories.map(directory => (
+              <li>
+                <a href={`/slide/${directory}`} target="_blank" class="capitalize">{directory.replaceAll("_", " ")}</a>
+              </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card my-3">
+    <div class="card-header">
+      <h4 class="card-title">Medical Management of BPH (Audio)</h4>
+    </div>
+    <div class="card-body">
+      <audio style="width:100%" controls>
+        <source src="/bph.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  </div>
+
+</section>
