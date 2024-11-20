@@ -219,7 +219,6 @@ In evaluating hematuria, following questions should be asked, and which help the
 	  - Prostatic volume
 	  - Post void residual
 	  - Any stone disease
-
 - `Cystoscopy:`
   - Cystoscopy should be performed as soon as possible, because frequently the source of bleeding can be readily identified.
   - All patients with hematuria, except young women (<40 years) with acute bacterial hemorrhagic cystitis, should undergo urologic evaluation.
@@ -227,12 +226,12 @@ In evaluating hematuria, following questions should be asked, and which help the
 
 -------------------------------------------------------------
 
-<img src="/discussions/Hematuria_evaluation.png">
+![Hematuria evaluation](/discussions/Hematuria_evaluation.png)
 
 -------------------------------------------------------------
 
-<img src="/discussions/Hematuria_history.png">
+![Hematuria history](/discussions/Hematuria_history.png)
 
 -------------------------------------------------------------
 
-<img src="/discussions/Hematuria_ivu.png">
+![Hematuria IVU](/discussions/Hematuria_ivu.png)

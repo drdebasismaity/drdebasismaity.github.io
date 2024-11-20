@@ -38,9 +38,9 @@ Aim is to reduce unnecessary Repeat biopsy.
 
 	- *what is this ?*
 	  - This is <span class='text-danger'>PCA3 score</span> = ( PCA3 RNA/PSA RNA)
-	- Cut off value=25, in post DRE 1^st catch urine. (some used-cut off=35)
+	- Cut off value=25, in post DRE 1st catch urine. (some used-cut off=35)
 	- *For whom?*
-	  - <span class='text-success'>Male ≥50 yrs, one or more negative PBs, again highly suspicious for prostatic CA.</span>
+		- <span class='text-success'>Male ≥50 yrs, one or more negative PBs, again highly suspicious for prostatic CA.</span>
 	- *why?*
 	  1. CA detection rate 6% at PCA3 <5 to 57% at PCA3 >100.
 	  1. Sensitivity & specificity of PCA3 score of 35 are- 48% & 78% who underwent 10 core 2 sets repeat PB at 2 & 4 yr follow up.
@@ -155,7 +155,7 @@ Pt with previous ASAP       | Pt with %fPSA <10%        | Pt with %fPSA>10% but 
 
 Pt had high PSA & negative TRUS–bx. Later Cancer confirmed on MR-bx
 
-<img src="/discussions/CA_Prostate_mri.jpg">
+![CA Prostate MRI](/discussions/CA_Prostate_mri.jpg)
 
 ------------------------------------------------------
 
@@ -194,7 +194,7 @@ Pt had high PSA & negative TRUS–bx. Later Cancer confirmed on MR-bx
 
 #### `D-8)Diagnostic dilemma in histopathology report following radical prostatectomy:`
 
-<img src="/discussions/CA_Prostate_bx-1.png">
+![CA Prostate BX](/discussions/CA_Prostate_bx-1.png)
 
 *TRUS biopsy showing adenocarcinoma prostate Gleason Score 3 + 3 = 6*
 
@@ -204,7 +204,7 @@ Pt had high PSA & negative TRUS–bx. Later Cancer confirmed on MR-bx
 
 --------
 
-<img src="/discussions/CA_Prostate_bx-2.png">
+![CA Prostate BX](/discussions/CA_Prostate_bx-2.png)
 
 *Final histopathology slides of radical prostatectomy*
 
@@ -214,6 +214,6 @@ specimen of same patient showing no tumor.
 
 ------------------------------------------
 
-<img src="/discussions/CA_Prostate_bx-3.png">
+![CA Prostate BX](/discussions/CA_Prostate_bx-3.png)
 
 *Negative AMACR staining*

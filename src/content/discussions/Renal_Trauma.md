@@ -17,9 +17,9 @@ title: Renal Trauma
 
 ### `Grade`
 
-<img src="/discussions/Renal_Trauma_grade.png">
+![Renal Trauma Grade](discussions/Renal_Trauma_grade.png)
 
-<img src="/discussions/Renal_Trauma_grade2.png">
+![Renal Trauma Grade 2](discussions/Renal_Trauma_grade2.png)
 
 ### `Indication of renal imaging:`
 
@@ -47,9 +47,9 @@ title: Renal Trauma
 
   -----------------------------------------------------
 
-  <img src="/discussions/Renal_Trauma_ct.jpg">
+![Renal Trauma CT](discussions/Renal_Trauma_ct.jpg)
 
-  <img src="/discussions/Renal_Trauma_ct2.jpg">
+![Renal Trauma CT 2](discussions/Renal_Trauma_ct2.jpg)
 
   ------------------------------------------------------
 
@@ -62,13 +62,13 @@ title: Renal Trauma
 
 - When the surgeon encounters an unexpected retroperitoneal hematoma surrounding a kidney during abdominal exploration.
 
-	<img src="/discussions/Renal_Trauma_ivp.jpg">
+![Renal Trauma IVP](discussions/Renal_Trauma_ivp.jpg)
 
 ----------------
 
 ### `Management:`
 
-<img src="/discussions/Renal_Trauma_management.png">
+![Renal Trauma Management](discussions/Renal_Trauma_management.jpg)
 
 **`Operative management:`**
 
@@ -92,7 +92,7 @@ title: Renal Trauma
 
 *Technique:*
 
- <img src="/discussions/Renal_Trauma_exploration.png">
+![Renal Trauma Exploration](discussions/Renal_Trauma_exploration.jpg)
 
 ---------------------------------------------------------------
 
@@ -107,16 +107,16 @@ title: Renal Trauma
 
 `Technique of renorrhapy:`
 
- <img src="/discussions/Renal_Trauma_renorrhaphy.png">
+![Renal Trauma Renorrhaphy](discussions/Renal_Trauma_renorrhaphy.png)
 
 ---------------------------------------------------------------
 
 `Technique of partial nephrectomy:`
 
- <img src="/discussions/Renal_Trauma_nephrectomy.png">
+![Renal Trauma Nephrectomy](discussions/Renal_Trauma_nephrectomy.png)
 
 ---------------------------------------------------------------
 
-<img src="/discussions/Renal_Trauma_key.png">
+![Renal Trauma Key](discussions/Renal_Trauma_key.png)
 
-<img src="/discussions/Renal_Trauma_key2.png">
+![Renal Trauma Key 2](discussions/Renal_Trauma_key2.png)

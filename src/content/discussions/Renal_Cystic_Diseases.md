@@ -140,7 +140,7 @@ title: Renal Cystic Diseases
 
 1. **USG**
  - Shows renal cysts + cysts in different organs
- <img src="/discussions/Renal_Cystic_Diseases_usg.jpg">
+ ![RCD USG](/discussions/Renal_Cystic_Diseases_usg.jpg)
 
 1. **IVU**
 
@@ -153,12 +153,12 @@ title: Renal Cystic Diseases
 1. **CT**
  - Superior to USG
  - Detects acute hemorrhage in cysts (50-90 Hansfield unit)
- <img src="/discussions/Renal_Cystic_Diseases_ct.jpg">
+ ![RCD CT](/discussions/Renal_Cystic_Diseases_ct.jpg)
 
 1. **MRI**
 
  - Indicated in the patient of renal insufficiency.
- <img src="/discussions/Renal_Cystic_Diseases_mri.jpg">
+ ![RCD MRI](/discussions/Renal_Cystic_Diseases_mri.jpg)
 
 
 1. **Cytogenetic study**
@@ -265,7 +265,8 @@ Dialysis and/or Renal transplant
   Multicystic dysplastic kidney  | Hypoechoic cyst in a non-reniform mass ,with little parenchyma
   Wilm’s tumor                   | Heterogeneous mass with functioning kidney
   Renal vein thrombosis          | Renal enlargement with hypoechoic medulla
-  <img src="/discussions/Renal_Cystic_Diseases_usg2.jpg">
+
+ ![RCD USG 2](/discussions/Renal_Cystic_Diseases_usg2.jpg)
 
 1. *CT scan:*
 
@@ -273,7 +274,8 @@ Dialysis and/or Renal transplant
  - Macrocyst are rare
  - Cysts <1cm more often appear
  - Diffuse hyperechoic foci without shadow-composed of calcium oxalate/citrate
- <img src="/discussions/Renal_Cystic_Diseases_ct2.jpg">
+
+ ![RCD CT 2](/discussions/Renal_Cystic_Diseases_ct2.jpg)
 
 1. *IVU:*
 
@@ -291,7 +293,7 @@ Dialysis and/or Renal transplant
 
 ----------------------------------------------------------
 
-<img src="/discussions/Renal_Cystic_Diseases_compare.jpg">
+![RCD Compare](/discussions/Renal_Cystic_Diseases_compare.jpg)
 
 ----------------------------------------------------------
 

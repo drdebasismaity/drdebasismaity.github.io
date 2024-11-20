@@ -30,12 +30,12 @@ No specific mechanism has been elucidated, possibilities are:
 - Genetic origin, based on the observation of a familial distribution of cases.
 - Concomitant existence of the disease in identical twins.
 
-|                                                           |                                                                   |
-| ----------------------------------------------------------|-------------------------------------------------------------------|
-| <img src="/discussions/Lichen_Sclerosus_1.jpg">      | <img src="/discussions/Lichen_Sclerosus_2.jpg">              |
-| BXO changes involving glans and prepuce. (Bagnan, Howrah) | BXO changes involving glans and prepuce. (Berhampur, Murshidabad) |
-| <img src="/discussions/Lichen_Sclerosus_3.jpg ">     | <img src="/discussions/Lichen_Sclerosus_4.jpg">             |
-| BXO changes with phimosis (Bolpur, Birbhum)               | BXO changes with meatal stenosis (Tamluk, Midnapur)               |
+|                                                            |                                                                   |
+| -----------------------------------------------------------|-------------------------------------------------------------------|
+| ![Lichen Sclerosus 1](/discussions/Lichen_Sclerosus_1.jpg) | ![Lichen Sclerosus 2](/discussions/Lichen_Sclerosus_2.jpg)        |
+| BXO changes involving glans and prepuce. (Bagnan, Howrah)  | BXO changes involving glans and prepuce. (Berhampur, Murshidabad) |
+| ![Lichen Sclerosus 3](/discussions/Lichen_Sclerosus_3.jpg) | ![Lichen Sclerosus 4](/discussions/Lichen_Sclerosus_4.jpg)        |
+| BXO changes with phimosis (Bolpur, Birbhum)                | BXO changes with meatal stenosis (Tamluk, Midnapur)               |
 
 
 ### `Diagnosis:`

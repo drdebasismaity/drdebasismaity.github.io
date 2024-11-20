@@ -13,21 +13,21 @@ title: Renal Stone
 
 The most common component of urinary calculi is calcium, which is a major constituent of nearly 75% of stones. Calcium oxalate makes up about 60% of all stones; mixed calcium oxalate and hydroxyapatite, 20%; and brushite stones, 2%.
 
-<img src="/discussions/Renal_Stone_1.jpg">
+![Renal Stone 1](/discussions/Renal_Stone_1.jpg)
 
 ### <span class='text-success'>Diagnostic classification: </span>
 
-<img src="/discussions/Renal_Stone_2.jpg">
+![Renal Stone 2](/discussions/Renal_Stone_2.jpg)
 
 ### <span class='text-success'>Conditions associated with hypercalcemia: </span>
 
-<img src="/discussions/Renal_Stone_3.jpg">
+![Renal Stone 3](/discussions/Renal_Stone_3.jpg)
 
-<img src="/discussions/Renal_Stone_4.jpg">
+![Renal Stone 4](/discussions/Renal_Stone_4.jpg)
 
 ### <span class='text-success'>Struvite stone formation: </span>
 
-<img src="/discussions/Renal_Stone_5.jpg">
+![Renal Stone 5](/discussions/Renal_Stone_5.jpg)
 
 ### <span class='text-primary'>Anatomic predisposition for stone: </span>
 
@@ -178,7 +178,7 @@ Struvite calculi form in the presence of alkaline urine (pH above 7.2) and in an
 - <span class='text-primary'>Avoidance of excess dietary oxalate loading is reasonable and intuitive.</span>
 - Vitamin C in large doses may increase the risk of stone recurrence. Doses should probably be limited to 2 g/day.
 
-<img src="/discussions/Renal_Stone_6.jpg">
+![Renal Stone 6](/discussions/Renal_Stone_6.jpg)
 
 - Bladder calculi are best managed with endoscopic techniques.
 - Subsequent recurrence is prevented by relief of the bladder outlet obstruction.
@@ -191,21 +191,21 @@ Struvite calculi form in the presence of alkaline urine (pH above 7.2) and in an
 
 ### <span class='text-success'> Renal Calyceal Anatomy: </span>
 
-<img src="/discussions/Renal_Stone_7.jpg">
+![Renal Stone 7](/discussions/Renal_Stone_7.jpg)
 
 ### <span class='text-success'> Algorithm for management of Renal Stone:</span>
 
 ### `1.`
 
-<img src="/discussions/Renal_Stone_8.jpg">
+![Renal Stone 8](/discussions/Renal_Stone_8.jpg)
 
 ### `2.`
 
-<img src="/discussions/Renal_Stone_9.jpg">
+![Renal Stone 9](/discussions/Renal_Stone_9.jpg)
 
-<img src="/discussions/Renal_Stone_10.jpg">
+![Renal Stone 10](/discussions/Renal_Stone_10.jpg)
 
-<img src="/discussions/Renal_Stone_11.jpg">
+![Renal Stone 11](/discussions/Renal_Stone_11.jpg)
 
 ### <span class='text-success'> Renal Side Effects of Shockwave Lithotripsy: </span>
 

@@ -35,7 +35,7 @@ const pdfEntries = Object.entries(pdfFiles).map(([path]) => ({
           <ul>
             {postEntries.map(post => (
             <li>
-              <a href={`/discussion/${post.path.split('/').pop().replaceAll(".md", "")}`} target="_blank">{post.title}</a>
+              <a href={`${import.meta.env.BASE_URL}/discussion/${post.path.split('/').pop().replaceAll(".md", "")}`} target="_blank">{post.title}</a>
             </li>
             ))}
           </ul>
@@ -54,7 +54,7 @@ const pdfEntries = Object.entries(pdfFiles).map(([path]) => ({
             <ul>
               {pdfEntries.map(pdf => (
               <li>
-                <a href={pdf.path} target="_blank" class="capitalize">{pdf.name}</a>
+                <a href={import.meta.env.BASE_URL + pdf.path} target="_blank" class="capitalize">{pdf.name}</a>
               </li>
               ))}
             </ul>
@@ -68,7 +68,7 @@ const pdfEntries = Object.entries(pdfFiles).map(([path]) => ({
             <ul>
               {slideDirectories.map(directory => (
               <li>
-                <a href={`/slide/${directory}`} target="_blank" class="capitalize">{directory.replaceAll("_", " ")}</a>
+                <a href={`${import.meta.env.BASE_URL}/slide/${directory}`} target="_blank" class="capitalize">{directory.replaceAll("_", " ")}</a>
               </li>
               ))}
             </ul>
@@ -84,7 +84,7 @@ const pdfEntries = Object.entries(pdfFiles).map(([path]) => ({
     </div>
     <div class="card-body">
       <audio style="width:100%" controls>
-        <source src="/bph.ogg" type="audio/ogg">
+        <source src=`${import.meta.env.BASE_URL}/bph.ogg` type="audio/ogg">
         Your browser does not support the audio element.
       </audio>
     </div>

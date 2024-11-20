@@ -1,21 +1,3 @@
-//import fs from 'fs';
-//import path from 'path';
-//
-//export function getSlides(slidePath) {
-//  try {
-//    const directoryPath = path.join(process.cwd(), 'public', 'slides', slidePath);
-//    const files = fs.readdirSync(directoryPath);
-//
-//    // Filter out any non-image files if necessary
-//    const slideFiles = files.filter((file) => /\.(jpg|jpeg|png|gif)$/i.test(file));
-//    return slideFiles.map((file) => `/slides/${slidePath}/${file}`);
-//  } catch (error) {
-//    console.error('Error reading images:', error);
-//    return [];
-//  }
-//}
-
-
 import { opendir } from 'node:fs/promises';
 import path from 'path';
 
@@ -31,7 +13,7 @@ export async function getSlides(slidePath) {
       }
     }
 
-    return slideFiles;
+    return slideFiles.sort();
   } catch (error) {
     console.error('Error reading images:', error);
     return [];
