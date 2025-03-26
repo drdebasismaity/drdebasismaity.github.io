@@ -7,7 +7,8 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "deploy": "astro build && npx gh-pages -d dist"
   },
   "dependencies": {
     "@pondorasti/remark-img-links": "^1.0.8",
@@ -17,5 +18,8 @@
     "lightgallery": "^2.8.1",
     "path": "^0.12.7",
     "swiper": "^11.1.14"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
