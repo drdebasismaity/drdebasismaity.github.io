@@ -15,8 +15,8 @@ const imageDirectories = await getDirectories('./public/images');
     <div class="card-body">
       <div id="lightgallery" class="gallery">
         {imageDirectories.map((directory) => (
-        <a href=`${import.meta.env.BASE_URL}/album/${directory}` data-lg-size="1600-2400">
-          <img src=`${import.meta.env.BASE_URL}/images/${directory}/thumb.jpg` alt={`Gallery Image`} />
+        <a href=`/album/${directory}` data-lg-size="1600-2400">
+          <img src=`/images/${directory}/thumb.jpg` alt={`Gallery Image`} />
           <div class="overlay-text capitalize">{directory.replace(/^\d+_?/, '').replaceAll("_", " ").trim()}</div>
         </a>
         ))}

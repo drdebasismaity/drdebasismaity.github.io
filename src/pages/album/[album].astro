@@ -29,8 +29,8 @@ images = images.filter(img => !img.endsWith('thumb.jpg'));
     <div class="card-body">
       <div id="lightgallery" class="gallery">
         {images.map((img) => (
-        <a href={`${import.meta.env.BASE_URL}${img}`} data-lg-size="1600-2400">
-          <img src={`${import.meta.env.BASE_URL}${img}`} alt={`Gallery Image`} />
+        <a href={`${img}`} data-lg-size="1600-2400">
+          <img src={`${img}`} alt={`Gallery Image`} />
           <div class="overlay-text capitalize">{img.split('/').pop().split('.').slice(0,1).join('.').replace(/^\d+_?/, '').replaceAll("_", " ").trim()}</div>
         </a>
         ))}
