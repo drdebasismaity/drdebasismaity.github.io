@@ -13,8 +13,6 @@
 | **Kamarpukur Ramkrishna Math, Hooghly**            | 2nd Saturday of every month                            |
 |                                                    | &#128222; 7908193521                                   |
 |                                                    | &#128222; 8967121539                                   |
-| **Dreamland Nursing Home, Shyambazar**             | Monday at 11 am, Wednesday at 11 am                    |
-|                                                    | &#128222; 8336085909                                   |
 | **We Care, LIC Building, 1st Floor, Krishna Nagar**| Every 1st and 3rd Saturday at 1 pm                     |
 |                                                    | &#128222; 8918851260                                   |
 |                                                    | &#128222; 9434159924                                   |
