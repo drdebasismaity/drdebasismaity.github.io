@@ -15,9 +15,6 @@
 |                                                    | &#128222; 8967121539                                   |
 | **Dreamland Nursing Home, Shyambazar**             | Monday at 11 am, Wednesday at 11 am                    |
 |                                                    | &#128222; 8336085909                                   |
-| **We Care, LIC Building, 1st Floor, Krishna Nagar**| Every 1st and 3rd Saturday at 1 pm                     |
-|                                                    | &#128222; 8918851260                                   |
-|                                                    | &#128222; 9434159924                                   |
 | **Karunamoy Health Care**                          | Every 2nd Saturday at 11 am                            |
 | Nabasson, Harinkhola, Hooghly                      | &#128222; 9432684762                                   |
 | (Opposite to Himadri cold storage)                 |                                                        |
